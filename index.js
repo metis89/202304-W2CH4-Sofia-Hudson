@@ -1,8 +1,9 @@
-const createLenghtMethod = (array) => {
-  let sum = 0;
-  for (value in array) {
-    sum += 1;
+const createLenghtMethod = (word) => {
+  let value = 0;
+  for (value in word) {
+    value++;
   }
-  return sum;
+  return value;
 };
-createLenghtMethod("Lorena");
+
+export default createLenghtMethod;
